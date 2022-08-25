@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+} 
+/*navigation-section*/
+.nav {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+
+}
+a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+ul > li {
+    display: flex;
+    justify-content: space-between;
+}
+/*heder-section*/
+
+.heder-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    margin-bottom: 25px;
+    font-size: 48px;
+}
+.header-parag {
+    font-size: 21px;
+    margin: 45px 0;
+}
+button {
+    background-color: #458FF6;
+    border-radius: 55px;
+    border: 0;
+    width: 150px;
+    padding: 10px;
+}
+.img {
+    width: 690px;
+}
+
+/*services-section*/    
+.servise-title {
+    margin: 60px 0;
+    text-align: center;
+}
+.servise-text {
+    text-align: center;
+    margin: 80px 0;
+}
+hr {
+    margin: 10px auto;
+    width: 60px;
+    height: 2px;
+    background-color: #458FF6;
+}
+.card {
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    background-color: rgb(249, 230, 230);
+}
+.cars-texts {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.card-title {
+    padding: 20px 0;
+}
+
+.cards {
+    padding: 0 15px; /*tug'irlashim kerak*/
+    width: 100%;
+    display: flex;
+    flex-grow: center;
+    justify-content: space-between;
+}
+.card {
+    flex-grow: 1;
+
+}
+
+/*raed more button*/
+.read-more {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.read-a {
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 20px ;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+}
+
+
+/*Leading healthcare providers*/
+.illustration {
+    margin: 50px;
+    width: 500px;
+}
+.healthcare {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+
+/*download-section*/
+.download-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*What our*/
+
+.testimonial {
+    height: 425px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+}
+.testimonial-title {
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+.testimonial-photo {
+    border-radius: 50%;
+    margin: 50px;
+}
+.testimonial {
+    border-radius: 24px;
+    padding: 50px;
+}
+#testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-names {
+    width: 200px;
+    margin: 40px;
+    color: #fff;
+}
+.testP {
+    width: 300px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+/* Check out our latest */
+.site-servise__card {
+    display: flex;
+    justify-content: space-evenly;
+}
+.servise-img {
+    margin-bottom: 20px;
+}
+.servise-cards {
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: #7D7987;
+}
+.pargaraph_card {
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: #7D7987;
+}
+.cars-title {
+    padding: 10px;
+}
+/* center-btn */
+.dldl {
+    display: flex;
+    justify-content: center;
+}
+.center-btn {
+    color: #458FF6;
+    background: none;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+}
+.center-btn:hover {
+    background-color:rgb(249, 230, 230);
+    cursor: pointer;
+    border: none;
+}
+
+
+/* footer */
+footer {
+    padding: 40px;
+    margin-top: 40px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    justify-content: space-evenly;
+}
+.sssss { 
+    width: 200px;
+    margin: 10px;
+}
+
+.footer-item {
+    padding: 8px;
+
+}
+.footer-list__item li{
+    list-style-type: none;
+    padding: 12px;
+}

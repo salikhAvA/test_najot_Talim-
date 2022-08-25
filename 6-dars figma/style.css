@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* line-height: 40px; */
+}
+.nav-lest {
+    display: flex;
+}
+.text-logo {
+    font-size: 24px;
+    font-weight: 900;
+    color:white;;
+}
+#weiport {
+    width: 100wv;
+    height: 100vh;
+    background-image: url("Rectangle.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-links {
+    padding: 20px;
+    margin: 0 8px;
+}
+.nav-links >a {
+    color:white;
+}
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+    /* color: black; */
+}
+.nav-links-hover{
+    opacity: 20%;
+    background-color: #FFFFFF;
+}
+.nav-links-btn {
+    background-color: #0C4A34;
+}
+
+/* header section */
+header {
+    margin-bottom: 50px;
+}
+
+.header-title {
+    color:rgb(85, 85, 85) ;
+    line-height: 1.5;
+    font-size: 42px;
+    text-align: center;
+    padding: 100px 50px;
+    margin-bottom: 40px;
+}
+.header-btn {
+    width: 190px;
+    margin: 0 auto;
+}
+.btn {
+    width: 250px;
+    background-color: #0C4A34;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 80px;
+} 
+.herder-paragraph {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.header-tect {
+    margin-right: 40px;
+    text-align: center;
+    color: white;
+    margin-right: 500px;
+}
+.rectanglr-right {
+    Width: 312px;
+    Height: 200px;
+    /* position: absolute; */
+    padding: 20px;
+    height: 200px;
+    background: #497557;
+    box-shadow: 0px 2px 12px rgba(23, 35, 33, 0.1);
+    border-radius: 2px;
+}
+.header-tect2 {
+    /* margin-bottom: 10;   */
+    text-decoration: underline;
+}
+/* main section */
+.list__items {
+    margin: 50px;
+}
+.main-items {
+    padding: 5px 10px;
+    color:rgb(61, 97, 228);
+}
+.main-lest {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 800;
+    font-size: 19px;
+}
+/* main section  */
+.likes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.main-subtitle {
+    padding: 15px;
+    width: 50%;
+}
+.subtitle {
+    background-color:rgb(85, 85, 85);
+}
+.main-text {
+    padding: 15px;
+    width: 50%;
+}
+

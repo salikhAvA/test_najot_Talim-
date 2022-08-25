@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title-contry {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.oymoma {
+    display: inline;
+    margin-right: 15px;
+}
+.blue {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 100px;
+    background-color: #0072CE;
+    border-bottom: 5px solid #DA291C;
+}
+
+.oq {
+    width: 600px;
+    height: 100px;
+    background-color: white;
+    border-bottom: 5px solid #DA291C;
+}
+.green {
+    width: 600px;
+    background-color: #43B02A;
+    height: 100px;
+}
+
+
+/* yaponiya bayrogi  */
+
+.rectangle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    border: #d5d5d5 solid 1px;
+    margin-bottom: 50px;
+    
+}
+.cercle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #BC002D;
+}
+
+/* yaponiya bayrogi  */ 
+.rus-flag {display: inline-block;
+    width: auto;
+    height: auto;
+    margin-bottom: 60px;
+    border: #eaeaea solid 1px;
+}
+.bely {
+    width: 600px;
+    background-color: #ffffff;
+    height: 100px;
+}
+.goluboy {
+    width: 600px;
+    background-color: #3b1cb5;
+    height: 100px;
+}
+.krasny {
+    width: 600px;
+    background-color: #ff1515;
+    height: 100px;
+}
